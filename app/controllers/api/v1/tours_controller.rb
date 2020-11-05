@@ -1,5 +1,5 @@
 class Api::V1::ToursController < ApplicationController
-    skip_before_action :authorized
+    # skip_before_action :authorized
 
 def create 
     @tour = Tour.create(tour_params)
