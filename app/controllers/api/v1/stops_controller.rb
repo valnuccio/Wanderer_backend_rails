@@ -6,7 +6,7 @@ class Api::V1::StopsController < ApplicationController
         end
         
         def index
-            @stops = Stops.all
+            @stops = Stop.all
             render json: stops
         end
         

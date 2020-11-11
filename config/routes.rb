@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :guides
       resources :tours
       resources :stops
+      resources :favorites
       post '/login', to: 'auth#create'
       get '/profile', to: 'users#profile'
       

@@ -14,7 +14,7 @@ end
 
 private
 def tour_params
-    params.require(:tour).permit(:name, :guide_id)
+    params.require(:tour).permit(:name, :guide_id, :sound_file)
 
 end
 
