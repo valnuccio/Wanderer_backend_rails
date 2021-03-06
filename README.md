@@ -1,24 +1,26 @@
-# README
+# Welcome to Wanderer for Expo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is this app?
 
-Things you may want to cover:
+This is a Expo based App to allow users to search for audio walking tours near them. 
 
-* Ruby version
+### What Makes this unique?
 
-* System dependencies
+The utilization of audio in conjunction with direction services. 
 
-* Configuration
+--- 
+### How Do I Begin? Installation
+  bundle install. rails db:create. rails db:migrate. rails db:seed. rail s. 
+    
+### HIGHLY IMPORTANT
 
-* Database creation
+This is the backend for the following repo - 
 
-* Database initialization
+https://github.com/valnuccio/Wanderer_front
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Demo:
+https://www.youtube.com/watch?v=-vJSDGMDNQ8
 
-* Deployment instructions
 
-* ...
+
